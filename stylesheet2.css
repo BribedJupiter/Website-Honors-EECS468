@@ -39,6 +39,8 @@ h1 {
     border: 10px dashed green;
     background-color: blanchedalmond;
     margin: 10%;
+    font-family: cursive;
+    font-weight: bold;
 }
 
 .feature {
@@ -49,6 +51,14 @@ h1 {
     font-weight: bold;
     padding: 2%;
     background-color: silver;
+}
+
+header {
+    position: fixed;
+    width: 20%;
+    margin: auto;
+    top: 0;
+    z-index: 1;
 }
 
 img {
@@ -109,6 +119,9 @@ body {
 
 #buttons {
     font-size: large;
+    font-weight: bold;
+    margin: auto;
+    padding: 0;
 }
 
 button {
@@ -118,8 +131,6 @@ button {
     font-size: 16px;
     border-radius: 50%;
     border: 5px inset indigo;
-    padding: 2%;
-    margin: 2%;
 }
 
 #business {
@@ -156,11 +167,12 @@ button {
 footer {
     position: fixed;
     bottom: 0;  
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: auto;
+    width: 50%;
     border: 5px solid black;
     background-color: aliceblue;
     font-size: small;
+    z-index: 1;
 }
 
 #footer_p {
