@@ -1,0 +1,168 @@
+p {
+    color: blue;
+    background-color: azure;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p.business {
+    background-color: lightblue;
+    padding: 2%;
+    border: 10px groove silver;
+}
+
+p.product {
+    background-color: purple;
+    padding: 2%;
+    border: 10px ridge cyan;
+    border-radius: 5px;
+    color: lightblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+p.founder {
+    background-color: navajowhite;
+    padding: 2%;
+    border: 10px inset navy;
+    border-radius: 5px;
+    color: darkgoldenrod;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border-radius: 10%;
+}
+
+h1 {
+    text-align: center;
+    color: purple;
+    border: 10px dashed green;
+    background-color: blanchedalmond;
+    margin: 10%;
+}
+
+.feature {
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 5px dashed black;
+    text-align: center;
+    font-weight: bold;
+    padding: 2%;
+    background-color: silver;
+}
+
+img {
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    opacity: 1;
+}
+
+#sword_img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    top: 10%;
+    opacity: 0;
+}
+
+#stone_img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    top: 10%;
+    opacity: 0;
+}
+
+#john_img {
+    margin-left: auto;
+    margin-right: auto;
+    top: 10%;
+    width: 50%;
+    opacity: 0;
+}
+
+ul {
+    list-style-type: none;
+    background-color: silver;
+    padding: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 5px solid black;
+}
+
+li {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin: 1%;
+}
+
+blockquote {
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    background-color: antiquewhite; 
+}
+
+#buttons {
+    font-size: large;
+}
+
+button {
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 50%;
+    border: 5px inset indigo;
+    padding: 2%;
+    margin: 2%;
+}
+
+#business {
+    position: relative;
+    border: 5px dashed darkblue;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    background-image: url("https://freesvg.org/img/crayonepee.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#product {
+    position: relative;
+    border: 5px dashed darkcyan;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-image: url("https://freesvg.org/img/nicubunu-RPG-map-symbols-Sword-in-the-Stone-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#founder {
+    position: relative;
+    border: 5px dashed darkgreen;
+    background-image: url("https://freesvg.org/img/Gerald_G_Man_in_Suit.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;  
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 5px solid black;
+    background-color: aliceblue;
+    font-size: small;
+}
+
+#footer_p {
+    padding: 0;
+}

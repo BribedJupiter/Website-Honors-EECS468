@@ -1,0 +1,86 @@
+p {
+    color: gold;
+}
+
+p.business {
+    padding: 2%;
+}
+
+p.product {
+    padding: 2%;
+    border: 2px dotted maroon;
+    margin: 1%;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+.feature {
+    background-color: goldenrod;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    border: 2px solid black;
+    padding: auto;
+}
+
+form {
+    height: 50px;
+    line-height: 50px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+body {
+    background-color: maroon;
+}
+
+footer {
+    border: 3px solid goldenrod;
+    background-color: black;
+    padding: 1%;
+    text-align: center;
+}
+
+#buttons {
+    border-radius: 25px;
+}
+
+button {
+    padding: 5px;
+    margin: 2px;
+}
+
+#business {
+    text-align: center;
+    border: 20px double brown;
+    background-color: maroon;
+}
+
+#product {
+    background-color: black;
+    border: 20px dashed goldenrod;
+}
+
+#founder {
+    border: 20px dotted black;
+    padding: 2%;
+    background-color: red;
+}
+
+#john_img {
+    border: 10px dotted black;
+}
+
+#john_quote {
+    font-family: "Cursive";
+}
